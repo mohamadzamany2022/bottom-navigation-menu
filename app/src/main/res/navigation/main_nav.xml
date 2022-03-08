@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/fragment_cat2">
+
+    <fragment
+        android:id="@+id/fragment_cat2"
+        android:name="com.example.bottomnav.fragment_cat"
+        android:label="fragment_cat2"
+        tools:layout="@layout/fragment_cat2" />
+    <fragment
+        android:id="@+id/fragment_map2"
+        android:name="com.example.bottomnav.fragment_map"
+        android:label="fragment_map2"
+        tools:layout="@layout/fragment_map2" />
+    <fragment
+        android:id="@+id/fragment_music2"
+        android:name="com.example.bottomnav.fragment_music"
+        android:label="fragment_music2"
+        tools:layout="@layout/fragment_music2" />
+</navigation>

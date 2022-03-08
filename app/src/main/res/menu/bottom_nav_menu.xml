@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/fragment_map2"
+        android:title="نقشه"
+        android:icon="@drawable/ic_baseline_add_location_24"
+        />
+    <item android:id="@+id/fragment_cat2"
+        android:title="دسته ها "
+        android:icon="@drawable/ic_baseline_category_24"
+        />
+    <item android:id="@+id/fragment_music2"
+        android:title="موزیک"
+        android:icon="@drawable/ic_baseline_music_note_24"
+        />
+</menu>
